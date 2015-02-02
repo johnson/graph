@@ -51,5 +51,11 @@ class TestBase < Test::Unit::TestCase
     assert_equal expected_prev, prev
   end
 
+  def test_not_allow_negative_edge
+    new_gr = Graph::Base.new
+    assert_raise(RuntimeError) do
+      new_gr.add_edge("a", "b", -1)
+    end
+  end
   
 end
