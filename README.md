@@ -7,16 +7,19 @@ Graph is a simple implement of show Dijkstra's algorithm in ruby follow http://e
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'graph'
+gem 'graph', github: 'johnson/graph'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+## Dev
 
-    $ gem install graph
+    $ git clone http://github.com/johnson/graph.git
+    $ cd graph
+    $ rake test
+
 
 ## Usage
 
