@@ -1,8 +1,5 @@
 # encoding: UTF-8
 
-require 'rubygems'
-# require 'pry'
-
 module Graph
   
   PositiveInfinity = +1.0/0.0
