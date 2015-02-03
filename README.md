@@ -34,8 +34,7 @@ And then execute:
     @gr.add_edge("3","6",2)
     @gr.add_edge("4","5",6)
     @gr.add_edge("5","6",9)
-    @gr.shortest_paths("1")
-    
+
     dist, prev = @gr.dijkstra("1")
     
     puts dist.inspect
